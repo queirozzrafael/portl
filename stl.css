@@ -1,0 +1,64 @@
+body{
+   margin: 0%;
+   background-color: #010937;   
+
+}
+
+@font-face {
+    font-family: novafonte;
+    src: url('font/Techfont.ttf');
+}
+
+
+.navbar{
+    height: 55px;
+    width: auto;
+    background-color: #000524;
+}
+
+.mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.container2{
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mcontainer{
+    height: 550px;
+    width: 990px;
+    background-color:#000524;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: novafonte;
+}
+
+.netwo{
+    background-color: aliceblue;
+    height: 150px;
+    width: 50px;
+}
+
+
